@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Lightweight ask_user tool for pi — uses built-in ctx.ui, no lag, ~200 lines",
   "type": "module",
-  "keywords": ["pi-package", "pi", "pi-coding-agent", "extension", "ask", "ask_user"],
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "ask",
+    "ask_user"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
@@ -11,12 +18,12 @@
     "url": "git+https://github.com/<your-username>/pi-ask-light.git"
   },
   "pi": {
-    "extensions": ["./index.ts"]
-  },
-  "dependencies": {
-    "typebox": "*"
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "peerDependencies": {
-    "@earendil-works/pi-coding-agent": ">=0.74.0"
+    "@earendil-works/pi-coding-agent": "^0.80.1",
+    "typebox": "^1.3.0"
   }
 }
